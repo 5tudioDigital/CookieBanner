@@ -55,7 +55,6 @@ function deletecookies() {
 function nocookies() {
     deletecookies(), 
     setCookie("AN_DS", "false", 30), 
-    setCookie("RE_DS", "false", 30), 
     setCookie("NOCO", "true", 30), 
     setCookie("CB", "true", 30)
     location.reload()
